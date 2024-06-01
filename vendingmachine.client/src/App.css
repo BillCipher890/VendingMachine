@@ -1,0 +1,35 @@
+﻿#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.drink-image {
+    width: 100px;
+    height: 100px;
+}
+
+.money-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.popup-drink-input {
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+}
